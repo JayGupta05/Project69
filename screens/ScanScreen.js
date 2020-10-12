@@ -40,7 +40,7 @@ export default class ScanScreen extends React.Component{
           style={StyleSheet.absoluteFillObject}
         />
       );
-    } else if(this.state.buttonState==='normal'){
+    } else if(button==='normal'){
         return(
           <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
             <Image
